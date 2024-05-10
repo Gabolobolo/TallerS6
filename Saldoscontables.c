@@ -31,7 +31,7 @@ int main(){
       ahorro_total = total_ganancias - total_gastos;
       
         printf("\nAhorro total del mes: %.2f\n", ahorro_total);
-      ahorro_anterior = ahorro_anterior + ahorro_total;
+      ahorro_anterior = ahorro_total;
       
     }
     return 0;
